@@ -8,7 +8,7 @@
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Sub Agents](https://img.shields.io/badge/Sub_Agents-16-3A2E52?style=for-the-badge)
-![Projects](https://img.shields.io/badge/Projects-3-4B6B2A?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Projects-4-4B6B2A?style=for-the-badge)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -21,7 +21,7 @@
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 <a href="01_netflix-blog-automation/"><img src="assets/01_netflix.jpg" alt="넷플릭스 블로그 자동화"></a>
 
@@ -33,7 +33,7 @@
 **[▶ 완성 글 보기](01_netflix-blog-automation/output/디거/final.md)**
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 <a href="02_film-festival-newcomer-proposal/"><img src="assets/02_festival.jpg" alt="영화제 입문자 기획안"></a>
 
@@ -45,7 +45,9 @@
 **[▶ 최종 기획안 보기](02_film-festival-newcomer-proposal/05_최종/기획안_최종.md)**
 
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 <a href="03_zeroid-musinsa-proposal/"><img src="assets/03_zeroid.jpg" alt="제로이드 무신사 입점 제안"></a>
 
@@ -55,6 +57,18 @@
 제로이드의 무신사 뷰티 입점 제안서·요약본·웹 제안서·피칭 자료 일체 (v34).
 
 **[▶ 제안서 PDF 보기](03_zeroid-musinsa-proposal/최종본/제로이드_무신사_입점제안서_최종_v34.pdf)**
+
+</td>
+<td width="50%" valign="top">
+
+<a href="04_instagram-cardnews/"><img src="assets/04_cardnews.jpg" alt="인스타그램 영화 카드뉴스 템플릿"></a>
+
+### 📱 인스타그램 영화 카드뉴스
+`SNS 콘텐츠` `디자인 템플릿`
+
+영화 소개 계정 **onspace.film_** 의 표지·소식·리뷰 카드를 문구와 사진만 바꿔 다시 쓰는 HTML 템플릿입니다.
+
+**[▶ 템플릿 보기](04_instagram-cardnews/)**
 
 </td>
 </tr>
@@ -144,6 +158,40 @@ flowchart LR
 
 <br>
 
+## 📱 04. 인스타그램 영화 카드뉴스 템플릿
+
+> 문구와 사진만 바꾸면, 인스타그램에 바로 올릴 4:5 카드뉴스가 완성됩니다.
+
+<table>
+<tr>
+<td align="center" width="25%">👋<br><b>계정 소개</b><br><sub>5장 · 우주 배경</sub></td>
+<td align="center" width="25%">📰<br><b>공개 소식</b><br><sub>7장 · 포스터 · 감상 포인트</sub></td>
+<td align="center" width="25%">🌕<br><b>#온우주리뷰</b><br><sub>7장 · 별점 · 호불호</sub></td>
+<td align="center" width="25%">🖨️<br><b>PNG 저장</b><br><sub>1080×1350 · Edge 헤드리스</sub></td>
+</tr>
+</table>
+
+```mermaid
+flowchart LR
+    A([🎞️ 작품 선정]) --> B[🔎 정보 조사]
+    B --> C[✍️ 문구 작성<br>2~3줄 · 문장마다 줄바꿈]
+    C --> D[🖼️ 사진 배치<br>세로 꽉 채움 · 가로 위쪽]
+    D --> E[🖨️ PNG 저장<br>1080×1350]
+    E --> F([📱 인스타그램 4:5 업로드])
+```
+
+| 📂 템플릿 | 링크 |
+|---|---|
+| 🧱 **표지 기본 틀** | [template/cover.html](04_instagram-cardnews/template/cover.html) |
+| 👋 **계정 소개** | [intro.html](04_instagram-cardnews/posts/00_account-intro/intro.html) · [캡션](04_instagram-cardnews/posts/00_account-intro/caption.txt) |
+| 📰 **<가능한 사랑> 공개 소식** | [cover.html](04_instagram-cardnews/posts/01_possible-love_news/cover.html) · [cards.html](04_instagram-cardnews/posts/01_possible-love_news/cards.html) · [캡션](04_instagram-cardnews/posts/01_possible-love_news/caption.txt) |
+| 🌕 **<가능한 사랑> #온우주리뷰** | [review.html](04_instagram-cardnews/posts/02_possible-love_review/review.html) · [캡션](04_instagram-cardnews/posts/02_possible-love_review/caption.txt) |
+| 📘 **사용법** | [README — 디자인 규칙 · 사진 넣기 · PNG 저장](04_instagram-cardnews/README.md) |
+
+<sub>※ 영화 스틸컷 · 포스터와 완성 카드 이미지는 저작권 때문에 저장소에 포함하지 않았습니다.</sub>
+
+<br>
+
 ## 🗂️ Structure
 
 ```
@@ -151,6 +199,7 @@ flowchart LR
  ┣ 📂 01_netflix-blog-automation          🎬 넷플릭스 추천 블로그 자동화
  ┣ 📂 02_film-festival-newcomer-proposal  🎟️ 영화제 입문자 관객 기획안
  ┣ 📂 03_zeroid-musinsa-proposal          🧴 제로이드 × 무신사 입점 제안
+ ┣ 📂 04_instagram-cardnews               📱 인스타그램 영화 카드뉴스 템플릿
  ┗ 📂 assets                              🖼️ README 미리보기 이미지
 ```
 
