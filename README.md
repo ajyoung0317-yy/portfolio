@@ -186,7 +186,8 @@ flowchart LR
 | 👋 **계정 소개** | [intro.html](04_instagram-cardnews/posts/00_account-intro/intro.html) · [캡션](04_instagram-cardnews/posts/00_account-intro/caption.txt) |
 | 📰 **<가능한 사랑> 공개 소식** | [cover.html](04_instagram-cardnews/posts/01_possible-love_news/cover.html) · [cards.html](04_instagram-cardnews/posts/01_possible-love_news/cards.html) · [캡션](04_instagram-cardnews/posts/01_possible-love_news/caption.txt) |
 | 🌕 **<가능한 사랑> #온우주리뷰** | [review.html](04_instagram-cardnews/posts/02_possible-love_review/review.html) · [캡션](04_instagram-cardnews/posts/02_possible-love_review/caption.txt) |
-| 📘 **사용법** | [README — 디자인 규칙 · 사진 넣기 · PNG 저장](04_instagram-cardnews/README.md) |
+| 🤖 **Claude Code 스킬** | [card-news 스킬](04_instagram-cardnews/.claude/skills/card-news/SKILL.md) · 리뷰·영화제·개봉작 틀 3종 · PNG 저장 · 캡션 가이드 |
+| 📘 **사용법** | [README — 디자인 규칙 · 사진 넣기 · PNG 저장 · 스킬](04_instagram-cardnews/README.md) |
 
 <sub>※ 영화 스틸컷 · 포스터와 완성 카드 이미지는 저작권 때문에 저장소에 포함하지 않았습니다.</sub>
 
