@@ -7,8 +7,8 @@
 <br>
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Sub Agents](https://img.shields.io/badge/Sub_Agents-16-3A2E52?style=for-the-badge)
-![Projects](https://img.shields.io/badge/Projects-4-4B6B2A?style=for-the-badge)
+![Sub Agents](https://img.shields.io/badge/Sub_Agents-23-3A2E52?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Projects-5-4B6B2A?style=for-the-badge)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -69,6 +69,20 @@
 영화 소개 계정 **onspace.film_** 의 표지·소식·리뷰 카드를 문구와 사진만 바꿔 다시 쓰는 HTML 템플릿입니다.
 
 **[▶ 템플릿 보기](04_instagram-cardnews/)**
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+<a href="05_onwooju-studio/"><img src="assets/05_onwooju.jpg" alt="온우주 에이전트 스튜디오"></a>
+
+### 🌌 온우주 에이전트 스튜디오
+`1인 콘텐츠 스튜디오` `에이전트 조직 설계`
+
+01의 블로그 자동화에서 출발해, 운영계획서부터 **디렉터 + 9개 스테이션**(기획·조사·글·디자인·영상 3·검수·성과)까지 갖춘 영화 AI 콘텐츠 마케팅 스튜디오로 키웠습니다. 운영자가 주말에 본 영화의 감상 한 장으로 블로그·카드뉴스·릴스를 만들고 서로 검토합니다.
+
+**[▶ 스튜디오 둘러보기](05_onwooju-studio/)**
 
 </td>
 </tr>
@@ -193,6 +207,42 @@ flowchart LR
 
 <br>
 
+## 🌌 05. 온우주 에이전트 스튜디오
+
+> 영화 한 편에 담긴 온 우주를 — 운영자는 보고 느끼고, 에이전트 팀은 조사하고 만들고 검토합니다.
+
+<table>
+<tr>
+<td align="center" width="25%">🏢<br><b>회사 설계</b><br><sub>운영계획서 · 브랜드 가이드</sub></td>
+<td align="center" width="25%">🤖<br><b>디렉터 + 9 스테이션</b><br><sub>에이전트 7 · 스킬 3</sub></td>
+<td align="center" width="25%">🎬<br><b>주말 리뷰</b><br><sub>세 채널 동시 · 확인 2번</sub></td>
+<td align="center" width="25%">🔍<br><b>교차 검토</b><br><sub>근거 꼬리표 · 최종 관문</sub></td>
+</tr>
+</table>
+
+```mermaid
+flowchart LR
+    A([🎞️ 주말 관람<br>감상.md]) --> B[🔎 조사]
+    B --> C1[✍️ 블로그]
+    B --> C2[📱 카드뉴스]
+    B --> C3[🎬 릴스 기획]
+    C1 & C2 & C3 --> D{🔍 검수팀}
+    D --> E[🎞️ 화면 → 편집]
+    E --> F([✅ 운영자 확인 → 업로드])
+    F -. 월간 리포트 .-> G[📊 성과팀] -. 다음 달 .-> H[🗓️ 기획팀]
+```
+
+| 📂 보기 | 링크 |
+|---|---|
+| 🏢 **회사 문서** | [운영계획서](05_onwooju-studio/회사/운영계획서.md) · [브랜드 가이드](05_onwooju-studio/회사/브랜드-가이드.md) · [영상팀 구상](05_onwooju-studio/회사/영상팀-구상.md) · [원 소스 멀티 유즈](05_onwooju-studio/회사/원소스-멀티유즈.md) |
+| 🤖 **에이전트 · 스킬** | [에이전트 7](05_onwooju-studio/.claude/agents/) · [주말 리뷰 스킬](05_onwooju-studio/.claude/skills/weekend-review/SKILL.md) · [디렉터 규칙 CLAUDE.md](05_onwooju-studio/CLAUDE.md) |
+| 🎬 **첫 시험 쇼츠 기록** | [기획 v2](05_onwooju-studio/output/하트오브비스트/shorts/01_plan/plan_v2.md) · [검수 판정 3회](05_onwooju-studio/output/하트오브비스트/shorts/reviews/) · [최종 보고](05_onwooju-studio/output/하트오브비스트/shorts/final-report.md) |
+| 🗓️ **운영** | [12월 캘린더](05_onwooju-studio/회사/캘린더/2026-12_v5.md) · [작품장부](05_onwooju-studio/회사/작품장부.md) · [배움 기록](05_onwooju-studio/회사/learnings.md) |
+
+<sub>※ 배급사 공식 스틸 · 포스터와 그 사진이 들어간 썸네일 · 쇼츠 장면 · 영상은 저작권 때문에 저장소에 포함하지 않았습니다.</sub>
+
+<br>
+
 ## 🗂️ Structure
 
 ```
@@ -201,6 +251,7 @@ flowchart LR
  ┣ 📂 02_film-festival-newcomer-proposal  🎟️ 영화제 입문자 관객 기획안
  ┣ 📂 03_zeroid-musinsa-proposal          🧴 제로이드 × 무신사 입점 제안
  ┣ 📂 04_instagram-cardnews               📱 인스타그램 영화 카드뉴스 템플릿
+ ┣ 📂 05_onwooju-studio                   🌌 온우주 에이전트 스튜디오
  ┗ 📂 assets                              🖼️ README 미리보기 이미지
 ```
 
