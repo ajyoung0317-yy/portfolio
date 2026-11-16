@@ -17,7 +17,7 @@
 
 <br>
 
-## ✨ Projects
+<img src="assets/head-projects.png" width="100%" alt="NOW SHOWING · 상영 중인 작품 6편">
 
 <table>
 <tr>
@@ -104,7 +104,7 @@
 
 <br>
 
-## 🎬 01. 넷플릭스 추천 블로그 자동화
+<img src="assets/title-01.png" width="100%" alt="NO. 01 — 넷플릭스 추천 블로그 자동화">
 
 > 작품명만 입력하면, 네이버 블로그에 바로 올릴 수 있는 리뷰 글이 완성됩니다.
 
@@ -125,7 +125,7 @@ flowchart LR
 
 <br>
 
-## 🎟️ 02. 영화제 입문자 관객 끌어오기 프로그램
+<img src="assets/title-02.png" width="100%" alt="NO. 02 — 영화제 입문자 관객 끌어오기 프로그램">
 
 > 영화제는 꽉 차는데, 처음 온 관객은 보이지 않는다 — 입문자를 영화제 안으로 끌어오는 프로그램.
 
@@ -153,7 +153,7 @@ flowchart LR
 
 <br>
 
-## 🧴 03. 제로이드 × 무신사 뷰티 입점 제안
+<img src="assets/title-03.png" width="100%" alt="NO. 03 — 제로이드 × 무신사 뷰티 입점 제안">
 
 > **9 to 6 윈터 배리어** — 덧바르는 보습에서 지키는 보습으로. <sub>(타깃: 2030 직장인)</sub>
 
@@ -186,7 +186,7 @@ flowchart LR
 
 <br>
 
-## 📱 04. 인스타그램 영화 카드뉴스 템플릿
+<img src="assets/title-04.png" width="100%" alt="NO. 04 — 인스타그램 영화 카드뉴스 템플릿">
 
 > 문구와 사진만 바꾸면, 인스타그램에 바로 올릴 4:5 카드뉴스가 완성됩니다.
 
@@ -221,7 +221,7 @@ flowchart LR
 
 <br>
 
-## 🌌 05. 온우주 에이전트 스튜디오
+<img src="assets/title-05.png" width="100%" alt="NO. 05 — 온우주 에이전트 스튜디오">
 
 > 영화 한 편에 담긴 온 우주를 — 운영자는 보고 느끼고, 에이전트 팀은 조사하고 만들고 검토합니다.
 
@@ -257,7 +257,7 @@ flowchart LR
 
 <br>
 
-## 🐊 06. 째깍원정대: 돌봄 서비스 경쟁사 상세페이지 조사
+<img src="assets/title-06.png" width="100%" alt="NO. 06 — 째깍원정대: 돌봄 서비스 경쟁사 상세페이지 조사">
 
 > 하원 시간은 됐는데 돌봄이 필요한 엄마는 여러 앱을 나란히 놓고 비교한다 — 그 비교를 매일, 출처와 함께.
 
@@ -290,7 +290,7 @@ flowchart LR
 
 <br>
 
-## 🗂️ Structure
+<img src="assets/head-credits.png" width="100%" alt="CREDITS · 폴더 구성">
 
 ```
 📦 portfolio
