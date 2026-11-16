@@ -1,17 +1,17 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0E14,50:3A2E52,100:4B6B2A&height=220&section=header&text=PORTFOLIO&fontSize=64&fontColor=F7EFDF&fontAlignY=38&desc=Claude%20Code%20%C3%97%20AI%20Agent%20Team%20Projects&descAlignY=58&descSize=18" width="100%" alt="PORTFOLIO">
+<img src="assets/cover.png" width="100%" alt="PORTFOLIO — Claude Code × AI Agent Team Projects">
 
-<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+KR&weight=700&size=22&pause=1200&color=F2C14E&center=true&vCenter=true&width=600&lines=AI+%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8+%ED%8C%80%EA%B3%BC+%ED%95%A8%EA%BB%98+%EB%A7%8C%EB%93%9C%EB%8A%94+%EC%BD%98%ED%85%90%EC%B8%A0;%EB%A6%AC%EC%84%9C%EC%B9%98+%E2%86%92+%EA%B8%B0%ED%9A%8D+%E2%86%92+%EC%A0%9C%EC%9E%91+%E2%86%92+%EA%B2%80%ED%86%A0;%EB%A7%88%EC%BC%80%ED%8C%85+%C2%B7+%EA%B8%B0%ED%9A%8D+%C2%B7+%EC%A0%9C%EC%95%88%EC%84%9C" alt="typing">
+<img src="https://readme-typing-svg.demolab.com?font=Noto+Serif+KR&weight=700&size=22&pause=1200&color=C9A24A&center=true&vCenter=true&width=600&lines=AI+%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8+%ED%8C%80%EA%B3%BC+%ED%95%A8%EA%BB%98+%EB%A7%8C%EB%93%9C%EB%8A%94+%EC%BD%98%ED%85%90%EC%B8%A0;%EB%A6%AC%EC%84%9C%EC%B9%98+%E2%86%92+%EA%B8%B0%ED%9A%8D+%E2%86%92+%EC%A0%9C%EC%9E%91+%E2%86%92+%EA%B2%80%ED%86%A0;%EB%A7%88%EC%BC%80%ED%8C%85+%C2%B7+%EA%B8%B0%ED%9A%8D+%C2%B7+%EC%A0%9C%EC%95%88%EC%84%9C" alt="typing">
 
 <br>
 
-![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Sub Agents](https://img.shields.io/badge/Sub_Agents-23-3A2E52?style=for-the-badge)
-![Projects](https://img.shields.io/badge/Projects-6-4B6B2A?style=for-the-badge)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-14120F?style=for-the-badge&logo=anthropic&logoColor=C9A24A)
+![Sub Agents](https://img.shields.io/badge/Sub_Agents-23-C9A24A?style=for-the-badge&labelColor=14120F)
+![Projects](https://img.shields.io/badge/Projects-6-C9A24A?style=for-the-badge&labelColor=14120F)
+![Markdown](https://img.shields.io/badge/Markdown-14120F?style=for-the-badge&logo=markdown&logoColor=C9A24A)
+![HTML](https://img.shields.io/badge/HTML-14120F?style=for-the-badge&logo=html5&logoColor=C9A24A)
+![Python](https://img.shields.io/badge/Python-14120F?style=for-the-badge&logo=python&logoColor=C9A24A)
 
 </div>
 
@@ -305,6 +305,6 @@ flowchart LR
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4B6B2A,50:3A2E52,100:0F0E14&height=120&section=footer" width="100%" alt="footer">
+<img src="assets/the-end.png" width="100%" alt="The End — Thanks for watching">
 
 </div>
