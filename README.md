@@ -8,7 +8,7 @@
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Sub Agents](https://img.shields.io/badge/Sub_Agents-23-3A2E52?style=for-the-badge)
-![Projects](https://img.shields.io/badge/Projects-5-4B6B2A?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Projects-6-4B6B2A?style=for-the-badge)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -83,6 +83,20 @@
 01의 블로그 자동화에서 출발해, 운영계획서부터 **디렉터 + 9개 스테이션**(기획·조사·글·디자인·영상 3·검수·성과)까지 갖춘 영화 AI 콘텐츠 마케팅 스튜디오로 키웠습니다. 운영자가 주말에 본 영화의 감상 한 장으로 블로그·카드뉴스·릴스를 만들고 서로 검토합니다.
 
 **[▶ 스튜디오 둘러보기](05_onwooju-studio/)**
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+<a href="06_tictoccroc-competitor-research/"><img src="assets/06_tictoccroc.jpg" alt="째깍원정대 경쟁사 상세페이지 조사"></a>
+
+### 🐊 째깍원정대: 돌봄 서비스 경쟁사 조사
+`경쟁사 리서치` `조사 자동화`
+
+돌봄 서비스 **경쟁사 5곳 + 우리 회사(째깍악어)**의 대표 문구·광고·요금·별점을 출처 링크와 함께 다시 조사합니다. 앞 조사와 비교해 바뀐 곳을 폰 첫 화면에 보여 주고, **"오늘 조사 돌려줘"** 한 줄로 다시 돌립니다.
+
+**[▶ 포트폴리오 한 장 보기](06_tictoccroc-competitor-research/portfolio_1116.md)**
 
 </td>
 </tr>
@@ -243,6 +257,39 @@ flowchart LR
 
 <br>
 
+## 🐊 06. 째깍원정대: 돌봄 서비스 경쟁사 상세페이지 조사
+
+> 하원 시간은 됐는데 돌봄이 필요한 엄마는 여러 앱을 나란히 놓고 비교한다 — 그 비교를 매일, 출처와 함께.
+
+<table>
+<tr>
+<td align="center" width="25%">📝<br><b>조사 설계서</b><br><sub>경쟁사 5 + 우리 · 칸 7</sub></td>
+<td align="center" width="25%">🔎<br><b>다시 조사</b><br><sub>조사일 · 출처 링크 · 못 찾음</sub></td>
+<td align="center" width="25%">🔁<br><b>바뀐 곳 찾기</b><br><sub>바뀐 곳 · (확인 필요)</sub></td>
+<td align="center" width="25%">📱<br><b>한 화면</b><br><sub>폰 첫 화면 · 네이버 광고 탭</sub></td>
+</tr>
+</table>
+
+```mermaid
+flowchart LR
+    A([💬 오늘 조사 돌려줘]) --> B[📝 mvp.md 읽기<br>경쟁사 · 칸]
+    B --> C[🔎 웹 다시 조사<br>홈페이지 · 앱스토어 · 메타 광고]
+    C --> D[💾 research_날짜.csv]
+    D --> E{🔁 앞 조사와 비교}
+    E --> F[🎨 mvp.html<br>오늘 바뀐 곳]
+```
+
+| 📂 보기 | 링크 |
+|---|---|
+| 📄 **포트폴리오 한 장** | [portfolio_1116.md](06_tictoccroc-competitor-research/portfolio_1116.md) |
+| 📊 **조사 · 화면** | [조사 설계서](06_tictoccroc-competitor-research/mvp.md) · [최신 조사표](06_tictoccroc-competitor-research/research_2026-11-16.csv) · [네이버 광고 조사](06_tictoccroc-competitor-research/research2.csv) · [화면 mvp.html](06_tictoccroc-competitor-research/mvp.html) |
+| 🤖 **Claude Code 스킬** | [daily-research 스킬](06_tictoccroc-competitor-research/.claude/skills/daily-research/SKILL.md) · [비교 도구 compare.py](06_tictoccroc-competitor-research/.claude/skills/daily-research/compare.py) |
+| 📣 **조사로 만든 대응안** | [내일 대응안](06_tictoccroc-competitor-research/plan.md) · [랜딩페이지](06_tictoccroc-competitor-research/landing.html) · [광고 이미지 프롬프트](06_tictoccroc-competitor-research/kv.md) |
+
+<sub>※ 학습용 MVP이며 조사한 회사들과 관계없습니다. 광고 시안 그림은 이미지 AI로 직접 만든 것입니다.</sub>
+
+<br>
+
 ## 🗂️ Structure
 
 ```
@@ -252,6 +299,7 @@ flowchart LR
  ┣ 📂 03_zeroid-musinsa-proposal          🧴 제로이드 × 무신사 입점 제안
  ┣ 📂 04_instagram-cardnews               📱 인스타그램 영화 카드뉴스 템플릿
  ┣ 📂 05_onwooju-studio                   🌌 온우주 에이전트 스튜디오
+ ┣ 📂 06_tictoccroc-competitor-research   🐊 째깍원정대 돌봄 서비스 경쟁사 조사
  ┗ 📂 assets                              🖼️ README 미리보기 이미지
 ```
 
